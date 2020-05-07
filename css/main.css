@@ -1,0 +1,74 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.1vmin;
+}
+
+.header {
+    background-color: #97C282;
+    width: 100vmin;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5vmin;
+    color: white;
+    padding: 2vmin;
+    font-weight: 500;
+}
+
+.list {
+    margin: 0;
+    border-spacing: 0 5vmin;
+}
+
+td {
+    font-size: 4vmin;
+    font-weight: 500;
+    color: #FA972E;
+}
+
+td > button {
+    background-color: #DB6669;
+    border: none;
+    height: 6vmin;
+    width: 6vmin;
+    font-size: 3vmin;
+    color: white;
+    margin-right: 2vmin;
+}
+
+input {
+    background-color: white;
+    border: solid #97C282;
+    color: #97C282;
+    height: 10vmin;
+    width: 72vmin;
+    margin-right: 2vmin;
+    font-size: 4vmin;
+    padding: 0 2vmin;
+}
+
+.add {
+    margin-top: 4vmin;
+}
+
+#submit {
+    width: 25.5vmin;
+    height: 10vmin;
+    background-color: white;
+    border: solid #97C282;
+    color: #97C282;
+    font-size: 4vmin;
+    font-weight: 500;
+    letter-spacing: -0.1vmin;
+}
